@@ -1,0 +1,19 @@
+version: '3.1'
+services:
+  app:
+    container_name: test
+    restart: always
+    build: .
+    ports:
+      - '3000:3000'
+    links:
+      - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    environment:
+      MONGODB_URI: mongodb'mongodb+srv://Islam:IslamAdmin@cluster0-zuq4h.mongodb.net/test?retryWrites=true&w=majority
+    ports:
+      - '3001:3001'
+    
+
