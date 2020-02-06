@@ -1,3 +1,5 @@
+Hello :D video of game: https://drive.google.com/open?id=1ylU2TVEWKdTQJJ0DlfyB6qtJQ0f7vtN-
+
 ========================================================================
     CONSOLE APPLICATION : OpenGL3DTemplate Project Overview
 ========================================================================
