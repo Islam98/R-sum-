@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".viewwww">
+
+    <Button
+        android:id="@+id/newItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Item" />
+
+    <Button
+        android:id="@+id/ViewItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue to checkout" />
+
+    <GridLayout
+        android:id="@+id/ItemGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:padding="10dp">
+
+        <TextView
+            android:padding="20dp"
+            android:layout_marginRight="50dp"
+            android:text="Item Name" />
+
+        <TextView
+            android:padding="20dp"
+            android:layout_marginRight="50dp"
+            android:text="Quantity" />
+
+        <TextView
+            android:layout_row="0"
+            android:layout_column="2"
+            android:padding="20dp"
+            android:text="Price" />
+    </GridLayout>
+</LinearLayout>
